@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding:0;
+}
+header{
+    display: flex;/*alligne les enfants horizontalement par defaut */
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;/*premier et dernier element au bout de la page */
+    background-color: rgb(188, 187, 187);
+}
+
+.class1{
+    font-weight: 200;
+    color: brown;
+    display:flex;
+    gap:20px;/*Espace entre les p */
+    
+}
+
+.section1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;/*utilisée pour centrer les éléments enfants dans le conteneur(section 1 ici) */
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+.img2 {
+
+    box-shadow: 20px 15px #361921;
+    
+}
+.class2{
+    display: flex;
+    flex-direction: column;/*alligne les enfants verticalements les uns apres les autres*/
+    gap: 40px;
+    justify-content: center;
+}
+.enfant1>h2{
+    font-weight: 400;
+    font-weight: 600;
+    color: brown;
+}
+.enfant1>p{
+    font-style: italic;
+}
+.enfant2>p>span{
+    font-weight: 400;
+    color: brown;
+}
+.ef31{
+    background-color: rgb(188, 187, 187);
+    width: 50%;
+    height: 20px;
+    margin-bottom: 15px;
+
+}
+.ef32{
+    
+    background-color: rgb(188, 187, 187);
+    height: 20px;
+    width: 70%;
+}
+
+.section2{
+    display: flex;
+    background-color:brown; 
+    width: 100%;
+    height:400px ;
+}
+.classp{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
